@@ -1,0 +1,21 @@
+# Credentials (never commit)
+config.json
+
+# Build artifacts
+*.o
+httpserver
+oliver.out
+bin/
+
+# Logs and output
+*.log
+auditlog
+error.txt
+output.txt
+stdout.txt
+full_audit_log.txt
+
+# Test scratch files
+tmp*
+test.txt
+test[0-9].txt
